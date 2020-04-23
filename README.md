@@ -1,6 +1,6 @@
-# lumogroup.github.io
+## lumogroup.github.io
 It is a open-source website project which created by LSHT LLC. 
-# About LSHT
+## About LSHT
 LSHT LLC. is a local-based orgnaztion.
 **shaDiao, Da shadiao!!!**
 *fuck, yes!!!*

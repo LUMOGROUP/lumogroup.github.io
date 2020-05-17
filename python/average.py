@@ -1,5 +1,5 @@
 # coding: utf-8
-#Copyright (c) 2020. LSHT LLC.
+#LSHT LLC. Inside Preview Version 0005
 #Published on Github.
 #https://GitHub.com/LUMOGROUP/lumogroup.github.io/tree/master/python/
 #求平均数 ver 0.2
@@ -27,4 +27,16 @@ print("数字数量=" + str(num) + "\n总和=" + str(all))
 out = all / num
 out = str(out)
 print("平均数是 " + out + " .")
+
+#开始求方差
+sumfce = []
+for everyfc in digits:
+    fce = everyfc - out
+    fce = fce **2
+    sumfce.append(fce)
+sum_sumfce = sum(sumfce)
+len_sumfce = len(sumfce)
+fangcha = sum_sumfce / len_sumfce
+print("方差是" + str(fangcha))
 pause("按 Enter 退出")
+

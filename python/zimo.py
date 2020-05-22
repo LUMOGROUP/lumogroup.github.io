@@ -5,7 +5,9 @@
 """
 def help(function_name="help"):
     if function_name == "help":
-        print("help [function_name] [options...]")
+        print("help [function_name] ")
+    if function_name == "":
+        print("help [function_name] ")
 
 def pause(message="Press any key to continue..."):
     pause_pause = input(message)

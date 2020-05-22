@@ -18,6 +18,8 @@ while True:
                    + "个数字>>")
     if userin == "q":
         break
+    elif userin == False:
+        break
     else:
         userin = int(userin)
         digits.append(userin)

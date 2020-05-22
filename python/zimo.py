@@ -3,10 +3,12 @@
 """
 自建函数库 实用小函数
 """
-def help(funcion_name="help"):
+def help(function_name="help"):
     if function_name == "help":
         print("help [function_name] [options...]")
 
 def pause(message="Press any key to continue..."):
     pause_pause = input(message)
+    print(pause_pause)
+
 

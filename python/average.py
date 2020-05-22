@@ -4,10 +4,8 @@
 #https://GitHub.com/LUMOGROUP/lumogroup.github.io/tree/master/python/
 #求平均数 ver 0.2
 
-def pause(message="Press any key to continue..."):
-    pause_pause = input(message)
 
-#`import sys
+import zimo
 digits = []
 i = 0
 print("求平均数\n帮助：逐个输入数字，输入完成请输入q")
@@ -26,9 +24,9 @@ while True:
 num = len(digits)
 all = sum(digits)
 print("数字数量=" + str(num) + "\n总和=" + str(all))
+
 out = all / num
-out = str(out)
-print("平均数是 " + out + " .")
+print("平均数是 " + str(out) + " .")
 
 #开始求方差
 sumfce = []
@@ -40,5 +38,4 @@ sum_sumfce = sum(sumfce)
 len_sumfce = len(sumfce)
 fangcha = sum_sumfce / len_sumfce
 print("方差是" + str(fangcha))
-pause("按 Enter 退出")
-
+zimo.pause("按 Enter 退出")
